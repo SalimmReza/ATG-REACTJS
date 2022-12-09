@@ -1,0 +1,15 @@
+.title {
+    font-size: 36px;
+}
+
+.header {
+    filter: brightness(50%);
+
+
+}
+
+.details {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 200px;
+}

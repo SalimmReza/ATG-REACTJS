@@ -1,0 +1,65 @@
+.title-details {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titlecard {
+    font-size: 22px;
+    width: 660px;
+    text-align: left;
+}
+
+.detail {
+    color: #5C5C5C;
+}
+
+.type-details {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.type-details img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.type-details h1 {
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.owner-img {
+    height: 48px;
+    width: 48px;
+}
+
+.owner-name {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.share p {
+    margin-left: 13px;
+    margin-right: 54px;
+    margin-top: 15px;
+}
+
+.owner-details {
+    margin-bottom: 15px;
+}
+
+.date img {
+    height: 15px;
+}
+
+.date {
+    margin-left: 64px;
+}
+
+.date p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-weight: bold;
+}

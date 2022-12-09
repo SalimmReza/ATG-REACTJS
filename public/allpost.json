@@ -1,37 +1,53 @@
 [
     {
-        "image": "../src/Assets/img1.png",
-        "type": "../src/Assets/✍️ Article.png",
+        "id": "1",
+        "image": "https://user-images.githubusercontent.com/91980956/206737008-cb5110ff-0e5e-4bbe-944f-b9911db416f6.png",
+        "type": "Article",
         "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+        "titleImg": "https://cdn-icons-png.flaticon.com/512/656/656742.png",
         "details": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
         "name": "Sarthak Kamra",
+        "ownerImg": "https://user-images.githubusercontent.com/91980956/206737006-a00e2e55-3c9d-4bc1-8dcc-d38990fc4cb9.png",
         "views": "1.4k"
     },
     {
-        "image": "../src/Assets/img2.png",
-        "type": "../src/Assets/🔬️ Education.png",
+        "id": "2",
+        "image": "https://user-images.githubusercontent.com/91980956/206737016-2209fd56-7da0-43c2-ba51-3a6ccd486fa8.png",
+        "type": "Education",
         "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+        "titleImg": "https://cdn-icons-png.flaticon.com/512/9123/9123334.png",
         "details": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
         "name": "Sarah West",
+        "ownerImg": "https://user-images.githubusercontent.com/91980956/206737001-59c6b715-0f2d-443b-a963-913aca24fc19.png",
         "views": "1.4k"
     },
     {
-        "image": "../src/Assets/img3.png",
-        "type": "../src/Assets/🗓️ Meetup.png",
+        "id": "3",
+        "image": "https://user-images.githubusercontent.com/91980956/206737065-c3a674f6-4616-4a7a-bc2a-9a64df32aa08.png",
+        "type": "Meetup",
         "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+        "titleImg": "https://cdn-icons-png.flaticon.com/512/9154/9154224.png",
         "date": "Fri, 12 Oct, 2018",
+        "dateLogo": "https://cdn-icons-png.flaticon.com/512/2278/2278049.png",
         "location": "Ahmedabad, India",
+        "locationLogo": "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
         "info": "Visit Website",
         "name": "Ronal Jones",
+        "ownerImg": "https://user-images.githubusercontent.com/91980956/206748337-a2339d0a-5ae4-4381-8f71-bee3303c36e6.png",
         "views": "1.4k"
     },
     {
-        "type": "../src/Assets/💼️ Job.png",
+        "id": "4",
+        "type": "Job",
         "title": "Software Developer",
-        "company": "Innovaccer Analytics Private Ltd.",
+        "titleImg": "https://cdn-icons-png.flaticon.com/512/5835/5835782.png",
+        "date": "Innovaccer Analytics Private Ltd.",
+        "dateLogo": "https://cdn-icons-png.flaticon.com/512/649/649730.png",
         "location": "Noida, India",
+        "locationLogo": "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
         "info": "Apply on TimesJobs",
         "name": "Joseph Gray",
+        "ownerImg": "https://user-images.githubusercontent.com/91980956/206737076-75edf264-67dd-4699-82f9-46453248f157.png",
         "views": "1.4k"
     }
 ]
