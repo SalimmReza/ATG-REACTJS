@@ -3,11 +3,7 @@
     margin-right: 20px;
 }
 
-.titlecard {
-    font-size: 22px;
-    width: 660px;
-    text-align: left;
-}
+
 
 .detail {
     color: #5C5C5C;
@@ -49,17 +45,83 @@
     margin-bottom: 15px;
 }
 
-.date img {
-    height: 15px;
+
+
+
+
+
+
+/* ---------------------eye -------------
+ */
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+
+
+    .faEye {
+        visibility: hidden;
+    }
+
+    .sm-view {
+        display: block;
+    }
+
+    .sm-view-hide {
+        display: none;
+    }
+
+    .titlecard {
+        font-size: 22px;
+        width: 350px;
+        text-align: left;
+    }
+
+    .date img {
+        height: 15px;
+    }
+
+    .date {
+        margin-right: 64px;
+    }
+
+    .date p {
+        font-size: 12px;
+        margin-left: 3px;
+        margin-top: -3px;
+        font-weight: bold;
+    }
+
+
+
 }
 
-.date {
-    margin-left: 64px;
-}
 
-.date p {
-    font-size: 15px;
-    margin-left: 10px;
-    margin-top: -5px;
-    font-weight: bold;
+@media only screen and (min-width: 769px) {
+
+    .sm-view {
+        display: none;
+    }
+
+    .titlecard {
+        font-size: 22px;
+        width: 660px;
+        text-align: left;
+    }
+
+    .date img {
+        height: 15px;
+    }
+
+    .date {
+        margin-right: 64px;
+    }
+
+    .date p {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -5px;
+        font-weight: bold;
+    }
+
+
+
 }

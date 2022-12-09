@@ -31,7 +31,8 @@ const ArticleCard = ({ article }) => {
                         <div className='d-flex detail'>
                             <p className=''>{article?.details}</p>
                         </div>
-                        <div className='d-flex'>
+                        <div className='d-flex justify-content-start
+                        '>
                             <div className='d-flex date'>
                                 <img src={article?.dateLogo} alt="" />
                                 <p>{article?.date}</p>
@@ -66,11 +67,14 @@ const ArticleCard = ({ article }) => {
                         <div className='d-flex justify-content-between owner-details'>
                             <div className='d-flex align-items-center '>
                                 <img className='owner-img' src={article?.ownerImg} alt="" />
-                                <h4 className='owner-name'>{article?.name}</h4>
+                                <div>
+                                    <h4 className='owner-name'>{article?.name}</h4>
+                                    <p className=' sm-view'>{article?.views} Views</p>
+                                </div>
                             </div>
                             <div className='d-flex align-items-center share'>
-                                <FontAwesomeIcon icon={faEye} />
-                                <p>{article?.views} Views</p>
+                                <FontAwesomeIcon className='faEye' icon={faEye} />
+                                <p className='sm-view-hide'>{article?.views} Views</p>
 
                                 <FontAwesomeIcon icon={faShareFromSquare} />
 
