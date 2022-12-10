@@ -1,0 +1,30 @@
+@media only screen and (max-width: 767px) {
+
+    .all-posts p {
+        display: none;
+    }
+
+    .two-button {
+        display: none;
+    }
+
+    .filter {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .all-posts p {
+        display: block;
+    }
+
+    .button {
+        display: block;
+    }
+
+
+    .filter {
+        display: none;
+    }
+}
