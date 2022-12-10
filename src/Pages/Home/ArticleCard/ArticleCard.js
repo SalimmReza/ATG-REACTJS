@@ -1,8 +1,10 @@
 import React from 'react';
-import './ArticleCard.css'
 import dotted from '../../../Assets/dotted.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleDot, faEye, faShareFromSquare } from '@fortawesome/free-solid-svg-icons'
+import './ArticleCard.css'
+
+
 
 const ArticleCard = ({ article }) => {
     console.log(article);
