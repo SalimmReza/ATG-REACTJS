@@ -1,0 +1,23 @@
+@media only screen and (max-width: 900px) {
+    .name {
+        width: 100%;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .or-signin {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (min-width: 901px) {
+
+    .or-signin {
+        display: none;
+    }
+
+}

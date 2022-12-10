@@ -1,15 +1,15 @@
 import React from 'react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { Button, Dropdown, Modal, ModalBody } from 'react-bootstrap';
 
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import group from "../../../Assets/group.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPeopleLine } from '@fortawesome/free-solid-svg-icons'
 import './PostTitle.css'
+import LoginModal from '../../../Components/Modal/LoginModal';
 
 const PostTitle = () => {
     return (
-
         <div>
             <div className='d-flex justify-content-between' style={{ marginTop: '47px' }}>
                 <div className='d-flex all-posts'  >
@@ -22,15 +22,25 @@ const PostTitle = () => {
                 </div>
                 <div className='d-flex ' style={{ fontWeight: '500px' }}>
 
+
+
+
+
+
                     <Dropdown className='two-button' style={{ backgroundColor: '#EDEEF0', color: 'black', borderRadius: '5%' }}>
                         <Dropdown.Toggle variant="Write a Post" id="dropdown-basic" >
                             Write a Post
                         </Dropdown.Toggle>
 
                     </Dropdown>
-                    <button className=' two-button' style={{ backgroundColor: '#2F6CE5', color: 'white', borderRadius: '6%', border: "0px" }}>
-                        <FontAwesomeIcon icon={faPeopleLine}></FontAwesomeIcon>
-                        Join Group</button>
+                    {/* <button className=' two-button' style={{ backgroundColor: '#2F6CE5', color: 'white', borderRadius: '6%', border: "0px" }}>
+
+
+                    </button> */}
+
+
+
+                    < LoginModal style={{ backgroundColor: '#2F6CE5' }}></LoginModal>
 
                     <Dropdown className='filter' style={{ backgroundColor: '#EDEEF0', color: 'black', borderRadius: '5%' }}>
                         <Dropdown.Toggle variant="Write a Post" id="dropdown-basic" >
@@ -38,6 +48,8 @@ const PostTitle = () => {
                         </Dropdown.Toggle>
 
                     </Dropdown>
+
+
                 </div>
             </div>
             <hr />
