@@ -7,6 +7,7 @@ import { Badge } from 'react-bootstrap';
 import img from '../../Assets/loginImg.png'
 import SignInModal from '../Modal/SignInModal.js'
 import './LoginModal.css'
+import '../../Pages/Home/PostTitle/PostTitle.css'
 
 function LoginModal(props) {
 
@@ -82,10 +83,12 @@ function App() {
 
     return (
         <>
-            <Button variant="primary" onClick={() => setModalShow(true)}>
+            <button
+                style={{ backgroundColor: "#2F6CE5", color: 'white', border: '0px', borderRadius: '2px' }}
+                className='two-button' variant="primary" onClick={() => setModalShow(true)}>
                 <FontAwesomeIcon icon={faPeopleLine}></FontAwesomeIcon>
                 Join Group
-            </Button>
+            </button>
 
 
             <LoginModal

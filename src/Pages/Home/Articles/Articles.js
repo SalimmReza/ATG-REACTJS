@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ArticleCard from '../ArticleCard/ArticleCard';
+import Groups from '../Groups/Groups';
 
 const Articles = () => {
 
@@ -22,8 +23,9 @@ const Articles = () => {
                         ></ArticleCard>)
                     }
                 </div>
-                <div className='col-8'>
+                <div className='col-sm-12 col-ms-12 col-lg-4'>
 
+                    <Groups></Groups>
                 </div>
             </div>
 

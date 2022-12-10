@@ -33,4 +33,10 @@
         font-size: 30px;
     }
 
+    .banner-button {
+        position: absolute;
+        bottom: 20px;
+        margin-left: 10px;
+    }
+
 }

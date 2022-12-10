@@ -23,16 +23,6 @@ const PostTitle = () => {
                 <div className='d-flex ' style={{ fontWeight: '500px' }}>
 
 
-
-
-
-
-                    <Dropdown className='two-button' style={{ backgroundColor: '#EDEEF0', color: 'black', borderRadius: '5%' }}>
-                        <Dropdown.Toggle variant="Write a Post" id="dropdown-basic" >
-                            Write a Post
-                        </Dropdown.Toggle>
-
-                    </Dropdown>
                     {/* <button className=' two-button' style={{ backgroundColor: '#2F6CE5', color: 'white', borderRadius: '6%', border: "0px" }}>
 
 
@@ -40,11 +30,17 @@ const PostTitle = () => {
 
 
 
-                    < LoginModal style={{ backgroundColor: '#2F6CE5' }}></LoginModal>
+                    < LoginModal style={{ backgroundColor: '' }}></LoginModal>
+                    <Dropdown className='two-button' style={{ backgroundColor: '#EDEEF0', color: 'black', borderRadius: '5%', marginLeft: '10px' }}>
+                        <Dropdown.Toggle variant="Write a Post" id="dropdown-basic" >
+                            Write A Post
+                        </Dropdown.Toggle>
+
+                    </Dropdown>
 
                     <Dropdown className='filter' style={{ backgroundColor: '#EDEEF0', color: 'black', borderRadius: '5%' }}>
                         <Dropdown.Toggle variant="Write a Post" id="dropdown-basic" >
-                            Write a Post
+                            Filter: All
                         </Dropdown.Toggle>
 
                     </Dropdown>

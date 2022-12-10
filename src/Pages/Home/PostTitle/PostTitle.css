@@ -5,7 +5,10 @@
     }
 
     .two-button {
-        display: none;
+        position: absolute;
+        bottom: 550px;
+
+
     }
 
     .filter {

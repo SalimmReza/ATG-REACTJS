@@ -1,6 +1,7 @@
 import React from 'react';
 import header from '../../../Assets/header.png'
 import './Banner.css'
+import LoginModal from '../../../Components/Modal/LoginModal'
 
 const Banner = () => {
     return (
@@ -9,6 +10,7 @@ const Banner = () => {
             <div className='details text-white d-flex  flex-column align-items-start'>
                 <h1 className='title '>Computer Engineering</h1>
                 <p>142,765 Computer Engineers follow this</p>
+
             </div>
         </div>
     );
